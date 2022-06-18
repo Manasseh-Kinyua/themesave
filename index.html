@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="default.css">
 
-    <link id="theme-style" rel="stylesheet" href="slate.css">
+    <link id="theme-style" rel="stylesheet" href="">
 </head>
 <body>
     <div class="card">
@@ -18,13 +18,16 @@
         <div class="card-body">
             <h4>FRENCH CUISINE</h4>
             <P>This is a very nice kind of food made by the French. <br> It is gfreat as desert but on ocassion it can also serve as the main course</P>
+            <small>SELECT A THEME THE SUITS</small>
             <div class="dot-holder">
-                <div id="dot-1" class="theme-dot"></div>
-                <div id="dot-2" class="theme-dot"></div>
-                <div id="dot-3" class="theme-dot"></div>
-                <div id="dot-4" class="theme-dot"></div>
+                <div data-mode="light" id="dot-1" class="theme-dot"></div>
+                <div data-mode="slate" id="dot-2" class="theme-dot"></div>
+                <div data-mode="green" id="dot-3" class="theme-dot"></div>
+                <div data-mode="purple" id="dot-4" class="theme-dot"></div>
             </div>
         </div>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,9 @@
+:root {
+    --primaryText: #fff;
+    --secondaryText: #fff;
+
+    --bodyBg: rgb(180, 234, 180);
+    --cardBg: rgb(47, 139, 84);
+
+    --cardBorder: grey;
+}

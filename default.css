@@ -13,8 +13,12 @@ body {
     background-color: var(--bodyBg);
 }
 
-p, h4 {
+p, h4, small {
     color: var(--primaryText);
+}
+
+small {
+    font-style: italic;
 }
 
 .card {
@@ -38,12 +42,18 @@ p, h4 {
 .dot-holder {
     display: flex;
     justify-content: space-between;
+    padding-top: 1rem;
 }
 
 .theme-dot {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
+    border: 2px solid var(--cardBorder);
+}
+
+.theme-dot:hover {
+    border-width: 3px;
 }
 
 #dot-1 {
@@ -56,6 +66,6 @@ p, h4 {
     background-color: rgb(124, 177, 124);
 }
 #dot-4 {
-    background-color: rgb(134, 34, 167);
+    background-color: rgb(206, 145, 226);
 }
 
