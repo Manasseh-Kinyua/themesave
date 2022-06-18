@@ -13,7 +13,7 @@ body {
     background-color: var(--bodyBg);
 }
 
-p {
+p, h4 {
     color: var(--primaryText);
 }
 
@@ -33,5 +33,29 @@ p {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
+}
+
+.dot-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-dot {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+#dot-1 {
+    background-color: #fff;
+}
+#dot-2 {
+    background-color: rgb(75, 75, 98);
+}
+#dot-3 {
+    background-color: rgb(124, 177, 124);
+}
+#dot-4 {
+    background-color: rgb(134, 34, 167);
 }
 
